@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "petition-web-3",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../Petition-web-2/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "petition-web-3",
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pettition</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      *{
+        overflow-x: hidden;
+      }
+      .nav-item{
+        font-weight: 700;
+      }
+
+      .upload-btn-wrapper {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      left: 20%;
+    }
+
+    .btn {
+      border: 2px solid gray;
+      color: gray;
+      background-color: white;
+      padding: 8px 20px;
+      border-radius: 8px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Make a petition</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-1">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="petition.html">Petition</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="admin.html">Admin</a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <h2 style="display: flex; justify-content: center; margin: 10px; overflow: hidden;">Create Petition</h2>
+
+
+      <div class="mb-3" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+        <input type="email" placeholder="Title" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 60%;">
+        
+        <br>
+        <select style="width: 20%; position: relative; left: -20%; " class="form-select" aria-label="Default select example">
+          <option selected>Dropdown Button</option>
+          <option value="1">Political Issues</option>
+          <option value="2">Regional Issues</option>
+          <option value="3">Other</option>
+        </select>
+        <br>
+      </div>
+
+      <p style="font-weight: 500; position: relative; left: 20%;">Description</p>
+      <div class="desc" style="position: relative; left: 20%;">
+        <input style="height: 300px; width: 60%;" type="email" placeholder="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 60%;">
+      </div>
+      <br><br>
+      <div class="upload-btn-wrapper">
+        <button class="btn">Upload a file</button>
+        <input type="file" name="myfile" />
+      </div>
+
+      <div class="btn_" style="display: flex; justify-content: center; align-items: center; margin: 40px;">
+        <a href="newpetition.html" class="btn btn-primary" style="text-align: center;">Submit Petition</a>
+      </div>
+      
+
+      
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script>
+    </body>
+  </html>
