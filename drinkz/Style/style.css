@@ -1,0 +1,482 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/*-----------------Header -------*/
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 15px;
+}
+
+
+nav{
+	flex: 1;
+	text-align: right;
+	position: relative;
+	bottom: 20px;
+
+}
+nav ul{
+	position: relative;
+	display: flex;
+	list-style: none;
+	font-family: 'Roboto bold', sans-serif;
+	cursor: pointer;
+	align-items: center;
+	justify-content: flex-end;
+	
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 25px;
+
+
+
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+
+}
+p{
+	color: black;	
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;	
+}
+
+/*----------------- Row under header  -------*/
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+	position: relative;
+	bottom: 63px;
+}
+.col-2 h1{
+	position: relative;
+	bottom: 100px;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	right: 50px;
+}
+
+.col-2 p{
+	position: relative;
+	bottom: 70px;
+	font-size: 25px;
+	font-family: 'Roboto bold', sans-serif;
+	color: red;
+	right: 50px;
+
+
+
+}
+.col-2 img{
+	max-width: 100%;
+	padding: 30px 0;
+	position: relative;
+	bottom:80px;
+}
+
+.header{
+	background: radial-gradient(#fff,#ffd6d6);
+	height: 100vh;
+
+}
+.header .row{
+	margin-top: 70px;
+}
+
+/*------ featured categories ------------*/
+
+.categories{
+	margin: 50px 0;
+	
+}
+.col-3{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 30px;
+}
+
+.col-3 img{
+	width: 100%;
+}
+
+.smallcontainer{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+.smallcontainer h3{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+}
+
+.smallcontainer h3::after{
+	content: '';
+ 	background: #ff523b;
+ 	width: 150px;
+ 	height: 5px;
+ 	border-radius: 5px;
+ 	position: absolute;
+ 	bottom: -100px;
+ 	left: 50%;
+ 	transform: translateX(-50%);
+
+}
+
+/*------ feature product ------------------*/
+.row{
+	margin-left: 120px;
+	left: 30px;
+
+
+}
+.col-4{
+	flex-basis: 25%;
+	padding: 30px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	transition: transform 0.5s;
+	
+}
+.col-4 img{
+	width: 60%;
+	top: 20px;
+
+}
+.col-4 h4{
+	font-family: 'Roboto bold', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+
+}
+
+.col-4 p{
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight: normal;
+
+}
+.small-container h2{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+
+}
+ .small-container h2::after{
+ 	content: '';
+ 	background: #ff523b;
+ 	width: 150px;
+ 	height: 5px;
+ 	border-radius: 5px;
+ 	position: absolute;
+ 	bottom: -10px;
+ 	left: 50%;
+ 	transform: translateX(-50%);
+ }
+.col-4:hover{
+
+	transform: translateY(-20px);
+}
+
+/*------ Testimonial ------------------*/
+
+
+.testimonial{
+	padding-top: 50px;
+	background: radial-gradient(#fff,#ffd6d6);
+	
+}
+
+.testimonial .col-3{
+	text-align: center;
+	padding: 40px 20px;
+
+
+}
+
+.testimonial .col-3 img{
+	width: 70px;
+	margin-top: 20px;
+	border-radius: 50px;
+	right: 20px;
+}
+
+.testimonial .row{
+	margin-right: 110px;
+}
+
+
+/*------ Brands ------------------*/
+
+
+.brands{
+	padding-top: 50px;
+}
+.brands .row{
+	margin-right: 120px;
+}
+
+
+/*------ Footer ------------------*/
+
+.footer{
+	margin-top: 60px;
+	background: black;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+
+}
+.footer p{
+	color:#8a8a8a;
+
+}
+.footer h3{
+	color: white;
+}
+
+.footer-col-1 ,.footer-col-2,.footer-col-3{
+	padding-right: 200px;
+}
+
+.footer-col-3 ul{
+	list-style: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+
+
+
+}
+
+/*---------------------------------------------------------------------------------- Beer and all other pages same navigation bar Products page -------------------------------------------------------------------*/
+
+.Full{
+	background: radial-gradient(#fff,#ffd6d6);
+	height:20vh;
+	margin-bottom: 20px;
+}
+
+/*---------------------------------------------------------------------------------- contact us form  -------------------------------------------------------------------*/
+.body{
+	background: radial-gradient(#fff,#ffd6d6);
+	
+
+}
+
+.Con{
+	background: radial-gradient(#fff,#ffd6d6);
+	height: 25vh;
+
+}
+h2{
+	font-size: 45px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: -25px;
+}
+ h3{
+ 	font-size: 20px;
+ 	font-family: 'Roboto', sans-serif;
+ 	color: red;
+ 	text-align: center;
+ 	margin-top: 20px;
+}
+
+.Contact-box{
+	background: white;
+	display: flex;
+
+}
+
+.contact-left{
+	flex-basis: 60%;
+	padding: 40px 60px;
+	background: radial-gradient(#fff,#ffd6d6);
+
+}
+.contact-left h4{
+	font-size: 30px;
+	color: red;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+.contact-right{
+	flex-basis: 40%;
+	padding: 40px;
+	background: white;
+
+
+}
+.image img{
+	position: relative;
+	left: 40%;
+	
+
+}
+
+input{
+	border: none;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+}
+textarea{
+	width: 100%;
+}
+
+.contact-right img{
+	top: 20px;
+}
+
+.contact-right h2{
+margin-top: 30px;
+font-size: 30px;
+font-family: 'Roboto', sans-serif;
+
+}
+
+button{
+	background: radial-gradient(#fff,#ffd6d6);
+	height: 35px;
+	border-radius: 20px;
+	width: 100px;
+	cursor: pointer;
+	box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+	outline: none;
+
+}
+
+button:hover{
+	background: black;
+	color: white;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------- Login page  -------------------------------------------------------------------*/
+
+.Head{
+	background: radial-gradient(#fff,#ffd6d6);
+	height: 170px;
+}
+
+.col img{
+	position: relative;
+	top: 50px;
+	right: 260px;
+}
+
+.form-container{
+	background: radial-gradient(#fff,#ffd6d6);
+	width: 300px;
+	height: 400px;
+	position: relative;
+	top: 30px;
+	text-align: center;
+	padding: 20px 0;
+	margin: auto;
+	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.form-container span{
+	font-weight: bold;
+	padding: 0 10px;
+	color: #555;
+	cursor: pointer;
+	width: 100px;
+	display: inline-block;
+}
+
+.form-btn{
+	display: inline-block;
+}
+.form-container form{
+	max-width: 300px;
+	padding: 0 20px;
+	position: absolute;
+	top: 130px;
+}
+
+form input{
+	width: 100%;
+	height: 30px;
+	margin: 10px 0;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+
+}
+form .btn{
+	width: 100%;
+	border: none;
+	cursor: pointer;
+	margin: 10px 0px;
+
+}
+form .btn:focus{
+	outline: none;
+	
+}
+
+#Loginform{
+	left: -350px;
+	background: radial-gradient(#fff,#ffd6d6);
+	height: 250px;
+	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+
+
+}
+
+#Regform{
+	left: 0px;
+}
+form a{
+	font-size: 12px;
+   	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
